@@ -1,0 +1,33 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index
+
+# An example controller showing a sample home page
+GET     /findAll                    controllers.PubController.findAll()
+
+# An example controller showing a sample home page
+POST     /query1Response                    controllers.PubController.partOneQueryOne()
+
+POST     /query2Response                    controllers.PubController.partOneQueryTwo()
+
+POST     /query3Response                    controllers.PubController.partOneQueryThree()
+
+POST     /query4Response                    controllers.PubController.partOneQueryFour()
+
+POST     /query5Response                    controllers.PubController.partOneQueryFive()
+
+POST     /query21Response                   controllers.PubController.partTwoQueryOne()
+
+POST     /query22Response                   controllers.PubController.partTwoQueryTwo()
+
+POST     /query23Response                   controllers.PubController.partTwoQueryThree()
+
+
+
+
+
+
+
