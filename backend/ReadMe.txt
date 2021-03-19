@@ -1,10 +1,10 @@
-ReadMe Instructions for running Lab 2:
+ReadMe Instructions for running:
 
-In the .zip file, there are two projects, Lab-2-backend and Lab-2-frontend, these must be open separately in IntelliJ.
+In the .zip file, there are two projects, backend and frontend, these must be open separately in IntelliJ.
 If the project does not have the configuration set, select add configuration, add Play 2 App, insert the URL to open,
-Lab-2-backend will be: http://localhost:9005, Lab-2-frontend will be: http://localhost:9001.
+backend will be: http://localhost:9005, frontend will be: http://localhost:9001.
 
-Once the configuration is added, the Lab-2-backend should be run. Before running the backend, ensure that the
+Once the configuration is added, the backend should be run. Before running the backend, ensure that the
 application.conf file is properly setup in the Conf folder. Make sure these values are filled with proper information,
 In the URL replace "test" with your DB name, and username, and password with your values.
 
@@ -12,7 +12,7 @@ db.default.url="jdbc:mysql://localhost:3306/test?autoReconnect=true&useSSL=false
 db.default.username=root
 db.default.password=root
 
-Now you can proceed with running the Lab-2-backend, this will create the tables in the database.
+Now you can proceed with running the backend, this will create the tables in the database.
 When asked in browser, the user should apply the script. Before continuing you must complete the mysqldump in order
 to populate your mysql database with the necessary values and structure. We have included mysqldump files in
 Lab-2-backend lib folder. There are three mysqldump files: auth_info.sql, conference_data.sql, and pub_info.sql.
@@ -53,7 +53,7 @@ Now you are ready to insert the data from the mysqldump provided into mysql data
 
 Once this is completed the database will be filled with appropriate data necessary for the program to function.
 
-Now you may run Lab-2-frontend and retrieve data via the Queries 1.1-1.5, 2.1-2.3.
+Now you may runfrontend and retrieve data via the Queries 1.1-1.5, 2.1-2.3.
 
 Query 1.1)
     Note: The user can enter the Title Name or the beginning word/words of the Publication Title they are looking for.
